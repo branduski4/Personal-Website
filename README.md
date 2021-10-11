@@ -2,6 +2,12 @@
 This is My main website take a look at it!
 
 
-![Screenshot from 2021-10-10 20-24-54](https://user-images.githubusercontent.com/39073053/136721036-dd2c5f69-75a0-41d9-afe0-bd7a29c224f6.png)
-![Screenshot from 2021-10-10 20-24-57](https://user-images.githubusercontent.com/39073053/136721037-542953c8-8242-44d3-b471-fd1df89a68fb.png)
-![Screenshot from 2021-10-10 20-24-58](https://user-images.githubusercontent.com/39073053/136721039-f05e78f4-e920-4a65-8dee-d7906f2cf29a.png)
+First Part of the page
+![Screenshot from 2021-10-10 20-24-28](https://user-images.githubusercontent.com/39073053/136721077-821bb404-a2e9-49d1-93da-8e469987e68e.png)
+
+Work Experience!
+![Screenshot from 2021-10-10 20-24-54](https://user-images.githubusercontent.com/39073053/136721129-08958f79-4715-44cc-9fbe-436f410dbd16.png)
+
+
+Tech Skills!
+![Screenshot from 2021-10-10 20-24-58](https://user-images.githubusercontent.com/39073053/136721147-0eb978a1-735c-445e-b26f-64380a3ab684.png)
