@@ -111,6 +111,17 @@ body {
   margin-bottom: 3rem;
 }
 
+#skills .logo-container_item {
+  text-align: center;
+  margin-bottom: 1.3rem;
+}
+
+#skills .logo-container_item h5 {
+  color: #79B4B7;
+  font-weight: bold;
+  font-family: "Rubik", sans-serif;
+}
+
 #skills .logo {
   color: #9D9D9D;
 }
