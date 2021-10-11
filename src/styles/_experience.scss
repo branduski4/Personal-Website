@@ -1,0 +1,39 @@
+#experience
+{
+    padding: $universalPadding;
+    background-color: $colorPrincipal;
+
+    .experience-title
+    {
+        margin-top: 2rem;
+        text-align: center;
+        font-family:$fontSectionTitle;
+        font-size: $fontSectionSize;
+        color: $colorLetras;
+        margin-bottom: 5rem;
+    }
+    hr{
+        color: $colorLetras;
+        margin-bottom: 4.5rem;
+    }
+    .last-hr
+    {
+        margin-bottom: 40px;
+    }
+    h4{
+        font-weight: bold;
+        margin-bottom: 20px;
+        
+    }
+    hr,h4,li{
+        color: $colorLetras;
+        font-size: $fontTextSize;
+        font-family: $fontTitle;
+    }
+    li{
+        margin-bottom: 20px;
+        line-height: 1.5;
+        color: $fontTextColor;
+    }
+   
+}

@@ -1,0 +1,46 @@
+//Header
+#header{
+    background-color: $colorPrincipal; 
+    padding: $universalPadding;
+    .container-fluid{
+        padding: 0;
+    }
+    .navbar-brand{
+        width: 70%;
+        color: $colorLetras;
+        font-family: 'Pacifico',cursive;
+        font-weight: $titleFontWeight;
+        margin: 0;
+        font-size:2rem;
+    }
+    .nav-link{
+        color:$colorLetras;
+        font-family: $fontTitle;
+        font-weight: $titleFontWeight;
+        font-size: 1.5rem;
+        
+    &:hover{
+        color: #B8DFD8;
+        transition: 0.3s all;
+    }
+    }
+    .description{
+        margin-top: 5rem;
+    }
+    .personal-img{
+        border-radius: 50%;
+        height: 15rem;
+        width: 15rem;
+        
+        
+    }
+    p{
+        color: $fontTextColor;
+        line-height:1.8;
+        font-size: $fontTextSize;
+        font-family: $fontTitle;
+        text-align: justify;
+        
+        
+    }
+}

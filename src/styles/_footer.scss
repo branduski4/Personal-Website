@@ -1,0 +1,20 @@
+//footer section
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $colorLetras;
+    padding: 3rem 0;
+    
+    .footer-logo
+    {
+        color: $colorPrincipal;
+        margin: 5px 3rem;
+    }
+    .footer-logo{
+        &:hover{
+            color: #F8F0DF;
+            transition: 0.6s all;
+        }
+    }
+}

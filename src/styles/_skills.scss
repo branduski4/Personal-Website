@@ -1,0 +1,33 @@
+#skills{
+    padding: 3% 10%;
+    background-color: $colorPrincipal;
+
+    h3{
+        color: $colorLetras;
+        font-size: $fontSectionSize;
+        font-family: $fontSectionTitle;
+        text-align: center;
+    }
+    .logo-container{
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+    }
+    .logo-container_item{
+        text-align: center;
+        margin-bottom: 1.3rem;
+        h5{
+            color: $colorLetras;
+            font-weight: $titleFontWeight;
+            font-family: $fontTitle;
+        }
+    }
+    .logo{
+        color: $fontTextColor;
+    }
+    .logo{
+        &:hover{
+            color: grey;
+            transition: 0.5s all;
+        }
+    }
+} 
