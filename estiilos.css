@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#header {
+  background-color: #FEFBF3;
+  padding: 3% 15%;
+}
+
+#header .container-fluid {
+  padding: 0;
+}
+
+#header .navbar-brand {
+  width: 70%;
+  color: #79B4B7;
+  font-family: 'Pacifico',cursive;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+#header .nav-link {
+  color: #79B4B7;
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#header .nav-link:hover {
+  color: #B8DFD8;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+#header .description {
+  margin-top: 5rem;
+}
+
+#header .personal-img {
+  border-radius: 50%;
+  height: 15rem;
+  width: 15rem;
+}
+
+#header p {
+  color: #9D9D9D;
+  line-height: 1.8;
+  font-size: 1.2rem;
+  font-family: "Rubik", sans-serif;
+  text-align: justify;
+}
+
+#experience {
+  padding: 3% 15%;
+  background-color: #FEFBF3;
+}
+
+#experience .experience-title {
+  margin-top: 2rem;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-size: 3rem;
+  color: #79B4B7;
+  margin-bottom: 5rem;
+}
+
+#experience hr {
+  color: #79B4B7;
+  margin-bottom: 4.5rem;
+}
+
+#experience .last-hr {
+  margin-bottom: 40px;
+}
+
+#experience h4 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#experience hr, #experience h4, #experience li {
+  color: #79B4B7;
+  font-size: 1.2rem;
+  font-family: "Rubik", sans-serif;
+}
+
+#experience li {
+  margin-bottom: 20px;
+  line-height: 1.5;
+  color: #9D9D9D;
+}
+
+#skills {
+  padding: 3% 10%;
+  background-color: #FEFBF3;
+}
+
+#skills h3 {
+  color: #79B4B7;
+  font-size: 3rem;
+  font-family: "Pacifico", cursive;
+  text-align: center;
+}
+
+#skills .logo-container {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+#skills .logo {
+  color: #9D9D9D;
+}
+
+#skills .logo:hover {
+  color: grey;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+#footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #79B4B7;
+  padding: 3rem 0;
+}
+
+#footer .footer-logo {
+  color: #FEFBF3;
+  margin: 5px 3rem;
+}
+
+#footer .footer-logo:hover {
+  color: #F8F0DF;
+  -webkit-transition: 0.6s all;
+  transition: 0.6s all;
+}
+
+@media (max-width: 990px) {
+  .img-container {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+}
+/*# sourceMappingURL=estiilos.css.map */

@@ -1,0 +1,161 @@
+$colorPrincipal:#FEFBF3;
+$colorLetras:#79B4B7;
+$fontTitle:'Rubik', sans-serif;
+$fontTitleSize:2rem;
+$fontTextSize:1.2rem;
+$fontTextColor:#9D9D9D;
+$fontSectionTitle:'Pacifico',cursive;
+$fontSectionSize:3rem;
+$universalPadding:3% 15%;
+$titleFontWeight:bold;
+
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+//Header
+#header{
+    background-color: $colorPrincipal; 
+    padding: $universalPadding;
+    .container-fluid{
+        padding: 0;
+    }
+    .navbar-brand{
+        width: 70%;
+        color: $colorLetras;
+        font-family: 'Pacifico',cursive;
+        font-weight: $titleFontWeight;
+        font-size: $fontTitleSize;
+    }
+    .nav-link{
+        color:$colorLetras;
+        font-family: $fontTitle;
+        font-weight: $titleFontWeight;
+        font-size: 1.5rem;
+        
+    &:hover{
+        color: #B8DFD8;
+        transition: 0.3s all;
+    }
+    }
+    .description{
+        margin-top: 5rem;
+    }
+    .personal-img{
+        border-radius: 50%;
+        height: 15rem;
+        width: 15rem;
+        
+        
+    }
+    p{
+        color: $fontTextColor;
+        line-height:1.8;
+        font-size: $fontTextSize;
+        font-family: $fontTitle;
+        text-align: justify;
+        
+        
+    }
+}
+
+
+//Experience
+#experience
+{
+    padding: $universalPadding;
+    background-color: $colorPrincipal;
+
+    .experience-title
+    {
+        margin-top: 2rem;
+        text-align: center;
+        font-family:$fontSectionTitle;
+        font-size: $fontSectionSize;
+        color: $colorLetras;
+        margin-bottom: 5rem;
+    }
+    hr{
+        color: $colorLetras;
+        margin-bottom: 4.5rem;
+    }
+    .last-hr
+    {
+        margin-bottom: 40px;
+    }
+    h4{
+        font-weight: bold;
+        margin-bottom: 20px;
+        
+    }
+    hr,h4,li{
+        color: $colorLetras;
+        font-size: $fontTextSize;
+        font-family: $fontTitle;
+    }
+    li{
+        margin-bottom: 20px;
+        line-height: 1.5;
+        color: $fontTextColor;
+    }
+   
+}
+
+//Skill section
+#skills{
+    padding: 3% 10%;
+    background-color: $colorPrincipal;
+
+    h3{
+        color: $colorLetras;
+        font-size: $fontSectionSize;
+        font-family: $fontSectionTitle;
+        text-align: center;
+    }
+    .logo-container{
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+    }
+    .logo{
+        color: $fontTextColor;
+    }
+    .logo{
+        &:hover{
+            color: grey;
+            transition: 0.5s all;
+        }
+    }
+} 
+
+
+//footer section
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $colorLetras;
+    padding: 3rem 0;
+    
+    .footer-logo
+    {
+        color: $colorPrincipal;
+        margin: 5px 3rem;
+    }
+    .footer-logo{
+        &:hover{
+            color: #F8F0DF;
+            transition: 0.6s all;
+        }
+    }
+}
+
+
+@media (max-width: 990px) {
+        .img-container{
+            text-align: center;
+            margin-bottom: 50px;
+        }
+    
+    }
