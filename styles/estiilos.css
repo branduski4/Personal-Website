@@ -144,12 +144,12 @@
       -ms-flex-align: center;
           align-items: center;
   background-color: #79B4B7;
-  padding: 3rem 0;
+  padding: 2rem 0;
 }
 
 #footer .footer-logo {
   color: #FEFBF3;
-  margin: 5px 3rem;
+  margin: 5px 2rem;
 }
 
 #footer .footer-logo:hover {
